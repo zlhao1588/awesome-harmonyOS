@@ -1,21 +1,50 @@
 # 鸿蒙电脑（HarmonyOS PC）开发编程工具盘点
 
-> 面向开发者整理：华为应用市场上架的开发/编程工具（含“应用尝鲜”渠道）、开源社区移植的开源应用、AI 工具版图（GUI 应用 × 开源 CLI），以及各语言新手开发指南。
+> 面向开发者整理：各语言新手开发指南、华为应用市场上架的开发/编程工具（含“应用尝鲜”渠道）、AI 工具版图（GUI 应用 × 开源 CLI），以及开源社区移植的开源应用。
 > 信息截至 2026-10，持续更新中。如链接失效，请在鸿蒙电脑的“华为应用市场”中直接搜索工具名。
 
 ## 目录
 
-- [一、官方 IDE 与 AI 开发套件](#一官方-ide-与-ai-开发套件)
-- [二、版本控制与代码托管](#二版本控制与代码托管)
-- [三、终端与远程开发](#三终端与远程开发)
-- [四、辅助与效率工具](#四辅助与效率工具)
-- [五、开源社区鸿蒙应用](#五开源社区鸿蒙应用)
-- [六、新手开发实践指南](#六新手开发实践指南)
-- [七、AI 工具版图（GUI 应用 × 开源 CLI）](#七ai-工具版图gui-应用--开源-cli)
+- [一、新手开发实践指南](#一新手开发实践指南)
+- [二、官方 IDE 与 AI 开发套件](#二官方-ide-与-ai-开发套件)
+- [三、AI 工具版图（GUI 应用 × 开源 CLI）](#三ai-工具版图gui-应用--开源-cli)
+- [四、版本控制与代码托管](#四版本控制与代码托管)
+- [五、终端与远程开发](#五终端与远程开发)
+- [六、辅助与效率工具](#六辅助与效率工具)
+- [七、开源社区鸿蒙应用](#七开源社区鸿蒙应用)
 - [八、说明与建议](#八说明与建议)
 - [相关资源](#相关资源)
 
-## 一、官方 IDE 与 AI 开发套件
+## 一、新手开发实践指南
+
+> 按“你想学什么”找入口：以下链接均为华为官方文档或社区实践验证的教程资源，覆盖各开发场景的入门路径。
+
+### 鸿蒙应用开发（ArkTS / ArkUI）
+
+- [HarmonyOS 第一课](https://developer.huawei.com/consumer/cn/training/study-path/101667550095504391) - 官方系统化学习路径，从零基础到进阶的课程体系。
+- [应用开发快速入门 Codelab](https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/tutorials_tutorials_QuickStart_ide) - 零基础约 2 小时完成第一个鸿蒙应用“手持弹幕”。
+- [HarmonyOS Codelabs 专区](https://developer.huawei.com/consumer/cn/codelabsPortal/serviceTypes) - 官方实操教程合集，覆盖 UI、网络、媒体、AI 等场景，按难度分级。
+- [应用开发指南文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-dev-guide) - 官方完整开发文档，开发过程中的权威参考。
+
+### Python / Java 通用编程
+
+- [华为官方支持说明](https://consumer.huawei.com/cn/support/content/zh-cn16051020/) - 鸿蒙电脑 Python/Java 支持现状：可在 CodeArts IDE 中体验编程。
+- [CodeArts IDE 帮助文档](https://support.huaweicloud.com/codeartside/index.html) - Python、Java 等语言的 IDE 官方使用文档。
+- [鸿蒙 PC 部署 Python 环境](https://blog.csdn.net/g310773517/article/details/156549733) - 通过“Python 安装器”一键部署 Python 3.12，跑通第一个程序与 pip 三方库。
+- [Python C 扩展库编译指南](https://blog.csdn.net/qq8864/article/details/163024355) - 进阶：在鸿蒙 PC 上编译安装带 C 扩展的三方库（含踩坑记录）。
+
+### 开源软件移植
+
+- [三方软件移植指南](https://blog.csdn.net/yyz_1987/article/details/154794871) - 鸿蒙 PC 开发环境搭建与三方库移植全流程。
+- [harmony-pc-apps 应用清单](https://gitcode.com/OpenHarmonyPCDeveloper/harmony-pc-apps) - 参考已移植开源应用的源码与构建方式。
+
+### 社区与生态
+
+- [OpenHarmony 官网](https://www.openharmony.cn/) - 开源鸿蒙项目官网，了解社区动态与版本发布。
+- [OpenHarmony Gitee 主仓库](https://gitee.com/openharmony) - 开源鸿蒙全部代码仓库。
+- [GitCode OpenHarmonyPCDeveloper 组织](https://gitcode.com/OpenHarmonyPCDeveloper) - 鸿蒙 PC 开发者开源组织，PC 应用移植与共建。
+
+## 二、官方 IDE 与 AI 开发套件
 
 | 工具 | 简介 | 获取方式 / 下载链接 |
 | --- | --- | --- |
@@ -24,14 +53,90 @@
 | **DevEco CLI（鸿蒙 PC 版）** | 命令行 AI 开发套件，一条 init 命令即可把鸿蒙开发 Skill 部署到本机各类 Agent 工具，打通终端开发流 | 随 DevEco Studio 公测发布；见官方文档 |
 | **CodeArt IDE** | 华为云轻量级代码编辑器，支持多语言开发，界面简洁 | 应用市场 > 我的 > 应用尝鲜 |
 
-## 二、版本控制与代码托管
+## 三、AI 工具版图（GUI 应用 × 开源 CLI）
+
+> 鸿蒙电脑上可运行的 AI 工具全景：带界面的一类已批量上架华为应用市场，开箱即用；另一类是开源社区的 AI CLI（命令行编程智能体），在鸿蒙电脑自带终端或“融合开发引擎”的 openEuler 终端中即装即用。
+
+### 3.1 带 GUI 的 AI 应用（应用市场已上架）
+
+#### AI 编程平台
+
+| 工具 | 简介 | 获取方式 |
+| --- | --- | --- |
+| **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | 应用市场搜索“WorkBuddy” |
+| **Qoder CN** | 阿里 Agent 式 AI 编程平台：Quest 任务引擎 + RepoWiki 项目记忆，配套 Qoder CLI | 应用市场搜索“Qoder” |
+| **CodeArts Agent** | 华为云 AI 编程智能体，可联动 CodeArts IDE 进行远程 AI 开发 | 应用市场搜索“CodeArts” |
+| **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
+| **DevBox** | 开发者工具箱：云端开发环境与 AI 开发助手一站式获取（另见第六节） | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.devbox) |
+
+#### AI 智能体工作台
+
+| 工具 | 简介 | 获取方式 |
+| --- | --- | --- |
+| **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
+| **Kimi** | 月之暗面 AI 助手桌面版：对话、写作、编程问答 | 应用市场搜索“Kimi” |
+| **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
+
+#### 数据与科学计算
+
+| 工具 | 简介 | 获取方式 |
+| --- | --- | --- |
+| **MWorks.Syslab** | 同元软控科学计算与系统仿真环境（Julia 内核），支持 AI 辅助建模 | 应用市场搜索“MWorks” |
+| **Navicat Premium Lite** | 免费数据库统一管理（MySQL / PostgreSQL 等），AI 辅助查询 | 应用市场搜索“Navicat” |
+
+#### 系统与运行底座
+
+| 工具 | 简介 | 获取方式 |
+| --- | --- | --- |
+| **融合开发引擎** | openEuler Linux 子系统（虚拟机 + 容器）：一键启动、共享文件夹、快照备份——AI CLI 工具在鸿蒙电脑上的运行底座 | 应用市场搜索“融合开发引擎” |
+| **小艺 / 盘古底座** | 系统级 AI 助手与端云大模型能力 | 系统内置 |
+
+### 3.2 开源社区 AI CLI 工具（终端里的编程智能体）
+
+> 多数为 npm/pip 一条命令安装（或 Go/Rust 单二进制），在鸿蒙电脑自带终端或融合开发引擎 openEuler 终端运行，配置 API Key 即用。
+
+#### 海外开源 Agent CLI
+
+| 工具 | 简介 | 仓库 |
+| --- | --- | --- |
+| **Claude Code** | Anthropic 官方终端编程智能体，业界事实标准 | [anthropics/claude-code](https://github.com/anthropics/claude-code) |
+| **Codex CLI** | OpenAI 开源（Rust）轻量编码智能体 | [openai/codex](https://github.com/openai/codex) |
+| **Gemini CLI** | Google 开源终端 AI 助手，免费额度慷慨 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) |
+| **Copilot CLI** | GitHub 官方 Agent 命令行，issue → PR 全流程 | [github/copilot-cli](https://github.com/github/copilot-cli) |
+| **Aider** | 经典 AI 结对编程 CLI，与 Git 深度结合 | [Aider-AI/aider](https://github.com/Aider-AI/aider) |
+| **OpenCode / Crush** | 社区热门开源终端 Agent（双发行版） | [sst/opencode](https://github.com/sst/opencode) · [charmbracelet/crush](https://github.com/charmbracelet/crush) |
+| **Goose** | Block 开源可扩展 AI Agent | [block/goose](https://github.com/block/goose) |
+
+#### 国内开源 / 免费 CLI
+
+| 工具 | 简介 | 仓库 |
+| --- | --- | --- |
+| **Qwen Code** | 阿里通义千问开源 CLI（Gemini CLI 分支） | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) |
+| **iFlow CLI** | 阿里心流免费终端智能体，免费用 Qwen3-Coder / Kimi K2 / GLM 等模型 | [iflow-ai/iflow-cli](https://gitee.com/iflow-ai/iflow-cli)（官网 [cli.iflow.cn](https://cli.iflow.cn/)） |
+| **Kimi CLI** | 月之暗面开源 CLI | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) |
+| **CodeBuddy Code** | 腾讯 CodeBuddy 配套 CLI，WorkBuddy 内置同款 | 随 WorkBuddy / CodeBuddy 安装 |
+| **Qoder CLI** | 阿里 Qoder 配套 CLI | Qoder 官网下载 |
+| **Trae Agent** | 字节跳动开源研究型软件工程 Agent | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) |
+
+#### 本地模型与效率工具
+
+| 工具 | 简介 | 仓库 |
+| --- | --- | --- |
+| **Ollama** | 本地大模型一键运行与管理 | [ollama/ollama](https://github.com/ollama/ollama) |
+| **llama.cpp** | 纯 C/C++ 本地推理引擎，CPU 可跑 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) |
+| **Open Interpreter** | 终端里用自然语言执行代码 | [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) |
+| **llm / AIChat** | 轻量多模型 CLI 双雄 | [simonw/llm](https://github.com/simonw/llm) · [sigoden/aichat](https://github.com/sigoden/aichat) |
+| **OpenHands** | 原 OpenDevin，全流程自主开发 Agent | [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) |
+| **SWE-agent** | 普林斯顿大学软件工程 Agent | [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) |
+
+## 四、版本控制与代码托管
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
 | **GitNext** | 鸿蒙原生 Git 客户端，随时查看与管理代码仓库 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.gitnext) |
 | **HmCodeHub** | 鸿蒙电脑上的 GitHub 客户端，浏览仓库、Issue 等更顺手 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=xyz.zhousg.harmony_github) |
 
-## 三、终端与远程开发
+## 五、终端与远程开发
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
@@ -39,7 +144,7 @@
 | **FtpNextClient** | 免费 FTP / SFTP / Telnet 客户端，本地与远程文件互传 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_client) |
 | **FtpNextServer** | 免费 FTP / SSH / Telnet 服务器端，把鸿蒙电脑变成远程主机 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_server) |
 
-## 四、辅助与效率工具
+## 六、辅助与效率工具
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
@@ -47,7 +152,7 @@
 | **鸿蒙JSON转对象工具** | JSON 快速转鸿蒙数据类（ArkTS），省去手写样板代码 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=top.sevenfire.ccjsonzs) |
 | **HMOS代码工坊** | 华为官方示例代码库，分类浏览可直接运行的应用案例 | 应用市场搜索“HMOS代码工坊” |
 
-## 五、开源社区鸿蒙应用
+## 七、开源社区鸿蒙应用
 
 > 以下应用由开源社区移植贡献，均已在华为应用市场上架（括号内为上架名）。清单来源：[OpenHarmonyPCDeveloper/harmony-pc-apps](https://gitcode.com/OpenHarmonyPCDeveloper/harmony-pc-apps)，欢迎参与共建。
 
@@ -115,111 +220,6 @@
 | **QGIS**（AirGis） | 开源地理信息系统（GIS）软件，支持地图制作、空间数据分析与多格式地理数据处理 | [Harmony-QGIS](https://gitcode.com/Andy88/Harmony-QGIS) |
 | **GeoGebra Classic**（AirMath） | 动态数学软件，集函数绘图、几何作图与代数计算于一体 | [Harmony-GeoGebra](https://gitcode.com/Andy88/Harmony-GeoGebra) |
 | **Stellarium**（AirSky） | 虚拟天文馆软件，实时模拟星空、星座与天体运行，辅助天文观测 | [Harmony-Stellarium](https://gitcode.com/Andy88/Harmony-Stellarium) |
-
-## 六、新手开发实践指南
-
-> 按“你想学什么”找入口：以下链接均为华为官方文档或社区实践验证的教程资源，覆盖各开发场景的入门路径。
-
-### 鸿蒙应用开发（ArkTS / ArkUI）
-
-- [HarmonyOS 第一课](https://developer.huawei.com/consumer/cn/training/study-path/101667550095504391) - 官方系统化学习路径，从零基础到进阶的课程体系。
-- [应用开发快速入门 Codelab](https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/tutorials_tutorials_QuickStart_ide) - 零基础约 2 小时完成第一个鸿蒙应用“手持弹幕”。
-- [HarmonyOS Codelabs 专区](https://developer.huawei.com/consumer/cn/codelabsPortal/serviceTypes) - 官方实操教程合集，覆盖 UI、网络、媒体、AI 等场景，按难度分级。
-- [应用开发指南文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-dev-guide) - 官方完整开发文档，开发过程中的权威参考。
-
-### Python / Java 通用编程
-
-- [华为官方支持说明](https://consumer.huawei.com/cn/support/content/zh-cn16051020/) - 鸿蒙电脑 Python/Java 支持现状：可在 CodeArts IDE 中体验编程。
-- [CodeArts IDE 帮助文档](https://support.huaweicloud.com/codeartside/index.html) - Python、Java 等语言的 IDE 官方使用文档。
-- [鸿蒙 PC 部署 Python 环境](https://blog.csdn.net/g310773517/article/details/156549733) - 通过“Python 安装器”一键部署 Python 3.12，跑通第一个程序与 pip 三方库。
-- [Python C 扩展库编译指南](https://blog.csdn.net/qq8864/article/details/163024355) - 进阶：在鸿蒙 PC 上编译安装带 C 扩展的三方库（含踩坑记录）。
-
-### 开源软件移植
-
-- [三方软件移植指南](https://blog.csdn.net/yyz_1987/article/details/154794871) - 鸿蒙 PC 开发环境搭建与三方库移植全流程。
-- [harmony-pc-apps 应用清单](https://gitcode.com/OpenHarmonyPCDeveloper/harmony-pc-apps) - 参考已移植开源应用的源码与构建方式。
-
-### 社区与生态
-
-- [OpenHarmony 官网](https://www.openharmony.cn/) - 开源鸿蒙项目官网，了解社区动态与版本发布。
-- [OpenHarmony Gitee 主仓库](https://gitee.com/openharmony) - 开源鸿蒙全部代码仓库。
-- [GitCode OpenHarmonyPCDeveloper 组织](https://gitcode.com/OpenHarmonyPCDeveloper) - 鸿蒙 PC 开发者开源组织，PC 应用移植与共建。
-
-## 七、AI 工具版图（GUI 应用 × 开源 CLI）
-
-> 鸿蒙电脑上可运行的 AI 工具全景：带界面的一类已批量上架华为应用市场，开箱即用；另一类是开源社区的 AI CLI（命令行编程智能体），在鸿蒙电脑自带终端或“融合开发引擎”的 openEuler 终端中即装即用。
-
-### 7.1 带 GUI 的 AI 应用（应用市场已上架）
-
-#### AI 编程平台
-
-| 工具 | 简介 | 获取方式 |
-| --- | --- | --- |
-| **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | 应用市场搜索“WorkBuddy” |
-| **Qoder CN** | 阿里 Agent 式 AI 编程平台：Quest 任务引擎 + RepoWiki 项目记忆，配套 Qoder CLI | 应用市场搜索“Qoder” |
-| **CodeArts Agent** | 华为云 AI 编程智能体，可联动 CodeArts IDE 进行远程 AI 开发 | 应用市场搜索“CodeArts” |
-| **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
-| **DevBox** | 开发者工具箱：云端开发环境与 AI 开发助手一站式获取（另见第四节） | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.devbox) |
-
-#### AI 智能体工作台
-
-| 工具 | 简介 | 获取方式 |
-| --- | --- | --- |
-| **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
-| **Kimi** | 月之暗面 AI 助手桌面版：对话、写作、编程问答 | 应用市场搜索“Kimi” |
-| **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
-
-#### 数据与科学计算
-
-| 工具 | 简介 | 获取方式 |
-| --- | --- | --- |
-| **MWorks.Syslab** | 同元软控科学计算与系统仿真环境（Julia 内核），支持 AI 辅助建模 | 应用市场搜索“MWorks” |
-| **Navicat Premium Lite** | 免费数据库统一管理（MySQL / PostgreSQL 等），AI 辅助查询 | 应用市场搜索“Navicat” |
-
-#### 系统与运行底座
-
-| 工具 | 简介 | 获取方式 |
-| --- | --- | --- |
-| **融合开发引擎** | openEuler Linux 子系统（虚拟机 + 容器）：一键启动、共享文件夹、快照备份——AI CLI 工具在鸿蒙电脑上的运行底座 | 应用市场搜索“融合开发引擎” |
-| **小艺 / 盘古底座** | 系统级 AI 助手与端云大模型能力 | 系统内置 |
-
-### 7.2 开源社区 AI CLI 工具（终端里的编程智能体）
-
-> 多数为 npm/pip 一条命令安装（或 Go/Rust 单二进制），在鸿蒙电脑自带终端或融合开发引擎 openEuler 终端运行，配置 API Key 即用。
-
-#### 海外开源 Agent CLI
-
-| 工具 | 简介 | 仓库 |
-| --- | --- | --- |
-| **Claude Code** | Anthropic 官方终端编程智能体，业界事实标准 | [anthropics/claude-code](https://github.com/anthropics/claude-code) |
-| **Codex CLI** | OpenAI 开源（Rust）轻量编码智能体 | [openai/codex](https://github.com/openai/codex) |
-| **Gemini CLI** | Google 开源终端 AI 助手，免费额度慷慨 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) |
-| **Copilot CLI** | GitHub 官方 Agent 命令行，issue → PR 全流程 | [github/copilot-cli](https://github.com/github/copilot-cli) |
-| **Aider** | 经典 AI 结对编程 CLI，与 Git 深度结合 | [Aider-AI/aider](https://github.com/Aider-AI/aider) |
-| **OpenCode / Crush** | 社区热门开源终端 Agent（双发行版） | [sst/opencode](https://github.com/sst/opencode) · [charmbracelet/crush](https://github.com/charmbracelet/crush) |
-| **Goose** | Block 开源可扩展 AI Agent | [block/goose](https://github.com/block/goose) |
-
-#### 国内开源 / 免费 CLI
-
-| 工具 | 简介 | 仓库 |
-| --- | --- | --- |
-| **Qwen Code** | 阿里通义千问开源 CLI（Gemini CLI 分支） | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) |
-| **iFlow CLI** | 阿里心流免费终端智能体，免费用 Qwen3-Coder / Kimi K2 / GLM 等模型 | [iflow-ai/iflow-cli](https://gitee.com/iflow-ai/iflow-cli)（官网 [cli.iflow.cn](https://cli.iflow.cn/)） |
-| **Kimi CLI** | 月之暗面开源 CLI | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) |
-| **CodeBuddy Code** | 腾讯 CodeBuddy 配套 CLI，WorkBuddy 内置同款 | 随 WorkBuddy / CodeBuddy 安装 |
-| **Qoder CLI** | 阿里 Qoder 配套 CLI | Qoder 官网下载 |
-| **Trae Agent** | 字节跳动开源研究型软件工程 Agent | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) |
-
-#### 本地模型与效率工具
-
-| 工具 | 简介 | 仓库 |
-| --- | --- | --- |
-| **Ollama** | 本地大模型一键运行与管理 | [ollama/ollama](https://github.com/ollama/ollama) |
-| **llama.cpp** | 纯 C/C++ 本地推理引擎，CPU 可跑 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) |
-| **Open Interpreter** | 终端里用自然语言执行代码 | [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) |
-| **llm / AIChat** | 轻量多模型 CLI 双雄 | [simonw/llm](https://github.com/simonw/llm) · [sigoden/aichat](https://github.com/sigoden/aichat) |
-| **OpenHands** | 原 OpenDevin，全流程自主开发 Agent | [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) |
-| **SWE-agent** | 普林斯顿大学软件工程 Agent | [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) |
 
 ## 八、说明与建议
 
