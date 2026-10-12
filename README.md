@@ -76,12 +76,6 @@
 | **Kimi** | 月之暗面 AI 助手桌面版：对话、写作、编程问答 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.hos.moonshot.kimichat) |
 | **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
 
-#### 系统级 AI
-
-| 工具 | 简介 | 获取方式 |
-| --- | --- | --- |
-| **小艺 / 盘古底座** | 系统级 AI 助手与端云大模型能力 | 系统内置 |
-
 ### 3.2 AI CLI 工具（终端里的编程智能体）
 
 > 多数为 npm/pip 一条命令安装（或 Go/Rust 单二进制），在鸿蒙电脑自带终端或融合开发引擎 openEuler 终端运行，配置 API Key 即用。
