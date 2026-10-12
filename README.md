@@ -1,6 +1,6 @@
 # 鸿蒙电脑（HarmonyOS PC）开发编程工具盘点
 
-> 面向开发者整理：各语言新手开发指南、华为应用市场上架的开发/编程工具（含“应用尝鲜”渠道）、AI 工具版图（AI GUI × AI CLI），以及开源社区移植的开源应用。
+> 面向开发者整理：各语言新手开发指南、华为应用市场上架的开发/编程工具（含“应用尝鲜”渠道）、AI 工具版图（AI GUI × AI CLI）与各类效率工具。
 > 信息截至 2026-10，持续更新中。如链接失效，请在鸿蒙电脑的“华为应用市场”中直接搜索工具名。
 
 ## 目录
@@ -11,8 +11,7 @@
 - [四、版本控制与代码托管](#四版本控制与代码托管)
 - [五、终端与远程开发](#五终端与远程开发)
 - [六、辅助与效率工具](#六辅助与效率工具)
-- [七、开源社区鸿蒙应用](#七开源社区鸿蒙应用)
-- [八、说明与建议](#八说明与建议)
+- [七、说明与建议](#七说明与建议)
 - [相关资源](#相关资源)
 
 ## 一、新手开发实践指南
@@ -65,7 +64,6 @@
 | 工具 | 简介 | 获取方式 |
 | --- | --- | --- |
 | **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | [应用市场详情页](https://appgallery.huawei.com/app/C117700477) |
-| **Qoder CN** | 阿里 Agent 式 AI 编程平台：Quest 任务引擎 + RepoWiki 项目记忆，配套 Qoder CLI | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.qoder.hmos) |
 | **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE），可联动 CodeArts IDE 进行远程 AI 开发 | 应用市场搜索“CodeArts Agent”；[官方安装指导](https://support.huaweicloud.com/usermanual-codeartsagent/codeartsagent_ug_0069.html) |
 
 #### AI 智能体工作台
@@ -73,7 +71,6 @@
 | 工具 | 简介 | 获取方式 |
 | --- | --- | --- |
 | **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
-| **Kimi** | 月之暗面 AI 助手桌面版：对话、写作、编程问答 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.hos.moonshot.kimichat) |
 | **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
 
 ### 3.2 AI CLI 工具（终端里的编程智能体）
@@ -100,7 +97,7 @@
 | **iFlow CLI** | 阿里心流免费终端智能体，免费用 Qwen3-Coder / Kimi K2 / GLM 等模型 | [iflow-ai/iflow-cli](https://gitee.com/iflow-ai/iflow-cli)（官网 [cli.iflow.cn](https://cli.iflow.cn/)） |
 | **Kimi CLI** | 月之暗面开源 CLI | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) |
 | **CodeBuddy Code** | 腾讯 CodeBuddy 配套 CLI，WorkBuddy 内置同款 | 随 WorkBuddy / CodeBuddy 安装 |
-| **Qoder CLI** | 阿里 Qoder 配套 CLI | Qoder 官网下载 |
+| **Qoder CLI** | 阿里 Qoder 配套 CLI | [Qoder 官网](https://qoder.cn) |
 | **Trae Agent** | 字节跳动开源研究型软件工程 Agent | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) |
 
 #### 本地模型与效率工具
@@ -110,7 +107,6 @@
 | **Ollama** | 本地大模型一键运行与管理 | [ollama/ollama](https://github.com/ollama/ollama) |
 | **llama.cpp** | 纯 C/C++ 本地推理引擎，CPU 可跑 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) |
 | **Open Interpreter** | 终端里用自然语言执行代码 | [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) |
-| **llm / AIChat** | 轻量多模型 CLI 双雄 | [simonw/llm](https://github.com/simonw/llm) · [sigoden/aichat](https://github.com/sigoden/aichat) |
 | **OpenHands** | 原 OpenDevin，全流程自主开发 Agent | [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) |
 | **SWE-agent** | 普林斯顿大学软件工程 Agent | [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) |
 
@@ -139,91 +135,24 @@
 | **Navicat Premium Lite** | 免费数据库统一管理（MySQL / PostgreSQL 等） | 应用市场搜索“Navicat” |
 | **鸿蒙JSON转对象工具** | JSON 快速转鸿蒙数据类（ArkTS），省去手写样板代码 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=top.sevenfire.ccjsonzs) |
 | **HMOS代码工坊** | 华为官方示例代码库，分类浏览可直接运行的应用案例 | 应用市场搜索“HMOS代码工坊” |
+| **DB Browser for SQLite**（AirBase） | SQLite 数据库可视化管理，支持建库、编辑数据与执行 SQL 查询 | 应用市场搜索“AirBase”；[开源地址](https://gitcode.com/Andy88/Harmony-SQLiteBrowser) |
+| **QEMU**（轻虚拟机） | 通用开源虚拟机与模拟器，可跨架构运行多种完整操作系统 | 应用市场搜索“轻虚拟机”；[开源地址](https://gitcode.com/Andy88/Harmony-QEMU) |
+| **Wireshark**（AirShark） | 网络协议分析工具，抓包深度解析数据包，用于网络调试与排障 | 应用市场搜索“AirShark”；[开源地址](https://gitcode.com/Andy88/Harmony-Wireshark) |
 
-## 七、开源社区鸿蒙应用
-
-> 以下应用由开源社区移植贡献，均已在华为应用市场上架（括号内为上架名）。清单来源：[OpenHarmonyPCDeveloper/harmony-pc-apps](https://gitcode.com/OpenHarmonyPCDeveloper/harmony-pc-apps)，欢迎参与共建。
-
-### 音视频与多媒体
-
-| 应用（上架名） | 功能简介 | 开源地址 |
-| --- | --- | --- |
-| **Audacity**（AirAudio） | 多轨音频录制与编辑工具，可完成录音、剪辑、降噪及音频混音处理 | [Harmony-Audacity](https://gitcode.com/Andy88/Harmony-Audacity) |
-| **Ardour**（AirDaw） | 数字音频工作站，支持多轨录音、MIDI 编曲、混音与母带处理 | [Harmony-Ardour](https://gitcode.com/Andy88/Harmony-Ardour) |
-| **MuseScore Studio**（AirScore） | 乐谱制作软件，支持创建、编辑与播放乐谱，可输出乐谱或音频 | [Harmony-MuseScore](https://gitcode.com/Andy88/Harmony-MuseScore) |
-| **Neothesia**（AirMidi） | MIDI 练琴可视化工具，音符以彩色瀑布流在虚拟钢琴上展示，辅助快速学琴 | [Harmony-Neothesia](https://gitcode.com/Andy88/Harmony-Neothesia) |
-| **OBS Studio**（AirCast） | 录屏与直播推流软件，支持多场景采集、画面合成与实时音视频推流 | [Harmony-OBS-Studio](https://gitcode.com/Andy88/Harmony-OBS-Studio) |
-| **VLC**（AirPlayer） | 全能多媒体播放器，支持几乎所有音视频格式及网络流媒体播放 | [Harmony-VLC](https://gitcode.com/Andy88/Harmony-VLC) |
-| **HandBrake**（AirBrake） | 视频转码压缩工具，支持将多种格式视频批量转换为 MP4/MKV | [Harmony-HandBrake](https://gitcode.com/Andy88/Harmony-HandBrake) |
-| **kdenlive**（AirLive） | 多轨非线性视频编辑软件，支持剪辑、特效、字幕与音频混合处理 | [Harmony-kdenlive](https://gitcode.com/Andy88/Harmony-kdenlive) |
-| **Shotcut**（轻剪辑） | 跨平台视频编辑器，支持多格式时间线剪辑、滤镜特效与成片导出 | [Harmony-Shotcut](https://gitcode.com/Andy88/Harmony-Shotcut) |
-
-### 图形图像与设计
-
-| 应用（上架名） | 功能简介 | 开源地址 |
-| --- | --- | --- |
-| **GIMP**（AirPS / AirPhoto） | 跨平台图像编辑器，提供图层、蒙版、滤镜等专业修图能力 | [Harmony-Gimp-OHOS](https://gitcode.com/Andy88/Harmony-Gimp-OHOS) |
-| **Krita**（AirDraw） | 数字绘画软件，专业笔刷引擎与笔压感应，适用于插画、漫画与概念设计创作 | [Harmony-krita](https://gitcode.com/Andy88/Harmony-krita) |
-| **Inkscape**（AirScape） | 矢量图形编辑软件，用于绘制 SVG 图标、插画与版式设计 | [Harmony-Inkscape-OHOS](https://gitcode.com/Andy88/Harmony-Inkscape-OHOS) |
-| **PixiEditor**（轻像素） | 通用 2D 图像编辑器，集像素画、绘画与矢量工具于一体，支持逐帧动画制作 | [PixiEditor](https://github.com/PixiEditor/PixiEditor) |
-| **Friction**（AirFx） | 二维动效图形软件，支持矢量与位图动画创作，可输出网页及视频动画 | [Harmony-Friction](https://gitcode.com/Andy88/Harmony-Friction) |
-| **digiKam**（AirKam） | 照片库管理软件，支持批量整理、标签检索、人脸识别及 RAW 照片编辑 | [Harmony-digiKam](https://gitcode.com/Andy88/Harmony-digiKam) |
-| **RawTherapee**（AirRT） | RAW 照片处理软件，提供色彩、曝光、降噪等精细暗房调整能力 | [Harmony-RawTherapee](https://gitcode.com/Andy88/Harmony-RawTherapee) |
-| **darktable**（AirRaw） | 摄影后期暗房软件，支持 RAW 冲图、非破坏性编辑与色彩管理 | [Harmony-darktable](https://gitcode.com/Andy88/Harmony-darktable) |
-
-### CAD 与工程制图
-
-| 应用（上架名） | 功能简介 | 开源地址 |
-| --- | --- | --- |
-| **FreeCAD**（AirCad） | 参数化 3D CAD 建模软件，用于机械产品设计与工程建模 | [Harmony-freecad](https://gitcode.com/Andy88/Harmony-freecad) |
-| **LibreCAD**（AirDraft） | 二维工程制图软件，用于绘制与标注机械、建筑等设计图纸 | [Harmony-LibreCAD](https://gitcode.com/Andy88/Harmony-LibreCAD) |
-| **OpenSCAD**（AirSCAD） | 代码式 3D 建模软件，通过编写脚本创建精确的参数化实体模型 | [Harmony-OpenSCAD](https://gitcode.com/Andy88/Harmony-OpenSCAD) |
-| **KiCad**（AirEDA） | 电子设计自动化（EDA）套件，支持原理图绘制、PCB 布线与 3D 板级预览 | [Harmony-KiCad](https://gitcode.com/Andy88/Harmony-KiCad) |
-
-### 办公与阅读
-
-| 应用（上架名） | 功能简介 | 开源地址 |
-| --- | --- | --- |
-| **LibreOffice**（AirWord） | 办公套件，包含文字处理、电子表格、演示文稿等完整办公模块 | [Harmony-LibreOffice](https://gitcode.com/Andy88/Harmony-LibreOffice) |
-| **ONLYOFFICE Desktop Editors**（AirOffice） | 办公文档套件，支持编辑文字、表格与演示文稿并兼容 Office 格式 | [Harmony-ONLYOFFICE](https://gitcode.com/Andy88/Harmony-ONLYOFFICE) |
-| **Scribus**（AirPress） | 桌面排版软件，用于设计海报、杂志等出版物并输出专业级 PDF | [Harmony-Scribus](https://gitcode.com/Andy88/Harmony-Scribus) |
-| **Okular**（AirReader） | 文档阅读器，支持 PDF、EPUB 等多种格式查看与批注 | [Harmony-Okular](https://gitcode.com/Andy88/Harmony-Okular) |
-| **calibre**（AirShelf） | 电子书管理工具，支持书库整理、格式转换、元数据编辑与阅读同步 | [Harmony-calibre](https://gitcode.com/Andy88/Harmony-calibre) |
-| **Zotero**（轻学术） | 文献管理工具，支持收集整理论文、自动抓取元数据并生成规范引用 | [Harmony-zotero](https://gitcode.com/Andy88/Harmony-zotero) |
-| **TeXstudio**（AirTex） | LaTeX 写作环境，提供语法高亮、自动补全与内置预览，用于科技文档排版 | [Harmony-TeXstudio](https://gitcode.com/Andy88/Harmony-TeXstudio) |
-
-### 开发与网络工具
-
-| 应用（上架名） | 功能简介 | 开源地址 |
-| --- | --- | --- |
-| **DB Browser for SQLite**（AirBase） | SQLite 数据库可视化管理工具，支持创建、浏览和编辑数据库并执行 SQL 查询 | [Harmony-SQLiteBrowser](https://gitcode.com/Andy88/Harmony-SQLiteBrowser) |
-| **QEMU**（轻虚拟机） | 通用开源虚拟机与模拟器，可跨架构运行多种完整操作系统 | [Harmony-QEMU](https://gitcode.com/Andy88/Harmony-QEMU) |
-| **Wireshark**（AirShark） | 网络协议分析工具，可抓取并深度解析网络数据包，用于故障排查与安全分析 | [Harmony-Wireshark](https://gitcode.com/Andy88/Harmony-Wireshark) |
-| **Firefox / Gecko**（AirWeb） | 开源网页浏览器，注重隐私保护与追踪防护 | [AirWeb](https://gitcode.com/Andy88/AirWeb) |
-
-### 科学与教育
-
-| 应用（上架名） | 功能简介 | 开源地址 |
-| --- | --- | --- |
-| **QGIS**（AirGis） | 开源地理信息系统（GIS）软件，支持地图制作、空间数据分析与多格式地理数据处理 | [Harmony-QGIS](https://gitcode.com/Andy88/Harmony-QGIS) |
-| **GeoGebra Classic**（AirMath） | 动态数学软件，集函数绘图、几何作图与代数计算于一体 | [Harmony-GeoGebra](https://gitcode.com/Andy88/Harmony-GeoGebra) |
-| **Stellarium**（AirSky） | 虚拟天文馆软件，实时模拟星空、星座与天体运行，辅助天文观测 | [Harmony-Stellarium](https://gitcode.com/Andy88/Harmony-Stellarium) |
-
-## 八、说明与建议
+## 七、说明与建议
 
 1. **应用尝鲜通道**：DevEco Studio 等官方工具目前通过“华为应用市场 > 我的 > 应用尝鲜”分发，普通搜索可能搜不到。
 2. **运行环境**：DevEco Studio 鸿蒙电脑版要求 HarmonyOS 7.0 及以上，支持 MateBook Pro / MateBook Fold 非凡大师等机型。
 3. **生态现状**：VS Code、JetBrains 系列等桌面 IDE 的鸿蒙原生版本暂未上架，可关注官方后续公告。
 4. **链接说明**：三方工具链接来自社区盘点（2025-12），若失效请以应用市场内搜索结果为准。
-5. **开源应用说明**：开源社区应用多为知名开源软件的鸿蒙移植版（上架名多为 “Air*” 或 “轻*” 系列），源码与构建脚本见各开源地址。
-6. **AI CLI 运行前提**：开源 AI CLI 依赖 Node.js 22+ / Python / Git 运行时，鸿蒙电脑可通过 WorkBuddy 自带运行时或“融合开发引擎”的 openEuler 环境补齐；国内 CLI（iFlow、Qwen Code 等）配 API Key 即用。
+5. **AI CLI 运行前提**：开源 AI CLI 依赖 Node.js 22+ / Python / Git 运行时，鸿蒙电脑可通过 WorkBuddy 自带运行时或“融合开发引擎”的 openEuler 环境补齐；国内 CLI（iFlow、Qwen Code 等）配 API Key 即用。
 
 ## 相关资源
 
 - [HarmonyOS 开发者官网](https://developer.huawei.com/consumer/cn/) - 官方文档、SDK 下载与活动公告。
 - [HarmonyOS 开发指南](https://developer.huawei.com/consumer/cn/doc/) - 系统性官方开发文档。
 - [华为应用市场](https://appgallery.huawei.com/) - 本文所有工具的官方分发渠道。
-- [harmony-pc-apps](https://gitcode.com/OpenHarmonyPCDeveloper/harmony-pc-apps) - 鸿蒙 PC 开源应用清单（本文开源应用章节来源）。
+- [harmony-pc-apps](https://gitcode.com/OpenHarmonyPCDeveloper/harmony-pc-apps) - 鸿蒙 PC 开源应用清单与移植参考。
 - [Awesome](https://github.com/sindresorhus/awesome) - 本文场景化整理方式参考的知名清单合集。
 - [华为开发者社区论坛](https://developer.huawei.com/consumer/cn/forum/) - 鸿蒙开发问题交流与技术讨论。
 
