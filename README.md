@@ -1,13 +1,13 @@
 # 鸿蒙电脑（HarmonyOS PC）开发编程工具盘点
 
-> 面向开发者整理：各语言新手开发指南、华为应用市场上架的开发/编程工具（含“应用尝鲜”渠道）、AI 工具版图（GUI 应用 × 开源 CLI），以及开源社区移植的开源应用。
-> 信息截至 2026-10，持续更新中。
+> 面向开发者整理：各语言新手开发指南、华为应用市场上架的开发/编程工具（含“应用尝鲜”渠道）、AI 工具版图（AI GUI × AI CLI），以及开源社区移植的开源应用。
+> 信息截至 2026-10，持续更新中。如链接失效，请在鸿蒙电脑的“华为应用市场”中直接搜索工具名。
 
 ## 目录
 
 - [一、新手开发实践指南](#一新手开发实践指南)
 - [二、官方 IDE 与 AI 开发套件](#二官方-ide-与-ai-开发套件)
-- [三、AI 工具版图（GUI 应用 × 开源 CLI）](#三ai-工具版图gui-应用--开源-cli)
+- [三、AI 工具版图（AI GUI × AI CLI）](#三ai-工具版图ai-gui--ai-cli)
 - [四、版本控制与代码托管](#四版本控制与代码托管)
 - [五、终端与远程开发](#五终端与远程开发)
 - [六、辅助与效率工具](#六辅助与效率工具)
@@ -49,49 +49,40 @@
 | 工具 | 简介 | 获取方式 / 下载链接 |
 | --- | --- | --- |
 | **DevEco Studio（鸿蒙电脑版）** | 首个原生运行在鸿蒙电脑上的 HarmonyOS 应用 IDE，基于毕方（BitFun）平台构建：代码编辑、编译构建、调试、性能调优、多设备预览一体化。2026-10-08 起开放公测（26.0.0.201 Beta1） | 应用市场 > 我的 > 应用尝鲜；[官方安装指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hmos-software-install) |
+| **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
 | **DevEco Code（鸿蒙 PC 版）** | 一站式鸿蒙应用 AI Agent 开发工具，内置 GLM5.3 / GLM5.1 等大模型，支持 Plan / Build / Goal 多种开发模式，集成鸿蒙知识库、Skills 与 MCP | 应用市场搜索“DevEco Code” |
 | **DevEco CLI（鸿蒙 PC 版）** | 命令行 AI 开发套件，一条 init 命令即可把鸿蒙开发 Skill 部署到本机各类 Agent 工具，打通终端开发流 | 随 DevEco Studio 公测发布；见官方文档 |
 | **CodeArt IDE** | 华为云轻量级代码编辑器，支持多语言开发，界面简洁 | 应用市场 > 我的 > 应用尝鲜 |
 
-## 三、AI 工具版图（GUI 应用 × 开源 CLI）
+## 三、AI 工具版图（AI GUI × AI CLI）
 
-> 鸿蒙电脑上可运行的 AI 工具全景：带界面的一类已批量上架华为应用市场，开箱即用；另一类是开源社区的 AI CLI（命令行编程智能体），在鸿蒙电脑自带终端或“融合开发引擎”的 openEuler 终端中即装即用。
+> 鸿蒙电脑上可运行的 AI 工具全景：带界面的一类（AI GUI）已批量上架华为应用市场，开箱即用；命令行的一类（AI CLI）多为开源编程智能体，在鸿蒙电脑自带终端或“融合开发引擎”的 openEuler 终端中即装即用。
 
-### 3.1 带 GUI 的 AI 应用（应用市场已上架）
+### 3.1 AI GUI 工具（应用市场已上架）
 
 #### AI 编程平台
 
 | 工具 | 简介 | 获取方式 |
 | --- | --- | --- |
-| **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | 应用市场搜索“WorkBuddy” |
-| **Qoder CN** | 阿里 Agent 式 AI 编程平台：Quest 任务引擎 + RepoWiki 项目记忆，配套 Qoder CLI | 应用市场搜索“Qoder” |
-| **CodeArts Agent** | 华为云 AI 编程智能体，可联动 CodeArts IDE 进行远程 AI 开发 | 应用市场搜索“CodeArts” |
-| **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
-| **DevBox** | 开发者工具箱：云端开发环境与 AI 开发助手一站式获取（另见第六节） | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.devbox) |
+| **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | [应用市场详情页](https://appgallery.huawei.com/app/C117700477) |
+| **Qoder CN** | 阿里 Agent 式 AI 编程平台：Quest 任务引擎 + RepoWiki 项目记忆，配套 Qoder CLI | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.qoder.hmos) |
+| **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE），可联动 CodeArts IDE 进行远程 AI 开发 | 应用市场搜索“CodeArts Agent”；[官方安装指导](https://support.huaweicloud.com/usermanual-codeartsagent/codeartsagent_ug_0069.html) |
 
 #### AI 智能体工作台
 
 | 工具 | 简介 | 获取方式 |
 | --- | --- | --- |
 | **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
-| **Kimi** | 月之暗面 AI 助手桌面版：对话、写作、编程问答 | 应用市场搜索“Kimi” |
+| **Kimi** | 月之暗面 AI 助手桌面版：对话、写作、编程问答 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.hos.moonshot.kimichat) |
 | **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
 
-#### 数据与科学计算
+#### 系统级 AI
 
 | 工具 | 简介 | 获取方式 |
 | --- | --- | --- |
-| **MWorks.Syslab** | 同元软控科学计算与系统仿真环境（Julia 内核），支持 AI 辅助建模 | 应用市场搜索“MWorks” |
-| **Navicat Premium Lite** | 免费数据库统一管理（MySQL / PostgreSQL 等），AI 辅助查询 | 应用市场搜索“Navicat” |
-
-#### 系统与运行底座
-
-| 工具 | 简介 | 获取方式 |
-| --- | --- | --- |
-| **融合开发引擎** | openEuler Linux 子系统（虚拟机 + 容器）：一键启动、共享文件夹、快照备份——AI CLI 工具在鸿蒙电脑上的运行底座 | 应用市场搜索“融合开发引擎” |
 | **小艺 / 盘古底座** | 系统级 AI 助手与端云大模型能力 | 系统内置 |
 
-### 3.2 开源社区 AI CLI 工具（终端里的编程智能体）
+### 3.2 AI CLI 工具（终端里的编程智能体）
 
 > 多数为 npm/pip 一条命令安装（或 Go/Rust 单二进制），在鸿蒙电脑自带终端或融合开发引擎 openEuler 终端运行，配置 API Key 即用。
 
@@ -140,6 +131,7 @@
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
+| **融合开发引擎** | openEuler Linux 子系统（虚拟机 + 容器）：一键启动、共享文件夹、快照备份，为 AI CLI 与开源软件提供 Linux 运行环境 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.huawei.developer.rgm.images_openeuler22.03) |
 | **CrossShellNext** | SSH 终端工具，支持多会话管理与密钥登录，远程开发必备 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.CrossShellNext) |
 | **FtpNextClient** | 免费 FTP / SFTP / Telnet 客户端，本地与远程文件互传 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_client) |
 | **FtpNextServer** | 免费 FTP / SSH / Telnet 服务器端，把鸿蒙电脑变成远程主机 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_server) |
@@ -148,7 +140,9 @@
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
-| **DevBox** | 面向鸿蒙 PC 的开发者工具集，常用开发小工具一站式获取 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.devbox) |
+| **DevBox** | 面向鸿蒙 PC 的开发者工具集，常用开发小工具与云端开发环境一站式获取 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.devbox) |
+| **MWorks.Syslab** | 同元软控科学计算与系统仿真环境（Julia 内核），数据分析与算法验证 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.tongyuan.mworks.syslab.pc) |
+| **Navicat Premium Lite** | 免费数据库统一管理（MySQL / PostgreSQL 等） | 应用市场搜索“Navicat” |
 | **鸿蒙JSON转对象工具** | JSON 快速转鸿蒙数据类（ArkTS），省去手写样板代码 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=top.sevenfire.ccjsonzs) |
 | **HMOS代码工坊** | 华为官方示例代码库，分类浏览可直接运行的应用案例 | 应用市场搜索“HMOS代码工坊” |
 
