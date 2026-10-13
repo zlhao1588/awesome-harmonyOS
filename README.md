@@ -66,9 +66,12 @@
 | **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | [应用市场详情页](https://appgallery.huawei.com/app/C117700477) |
 | **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
 | **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
-| **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
+| **OpenClaw助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw助手” |
 | **Qoder CN** | 阿里推出的编程智能体，鸿蒙电脑版已上架 | 应用市场搜索“Qorder CN” |
 | **kimi** | 月之暗面鸿蒙电脑版办公助手 | 应用市场搜索“Kimi” |
+| **Cube Agent** | 面向鸿蒙电脑的一台原生AI工作台 | 应用市场搜索“Cube Agent” |
+
+
 
 ### 3.2 AI CLI 工具（终端里的编程智能体）
 
@@ -78,7 +81,8 @@
 
 | 工具 | 简介 | 仓库 |
 | --- | --- | --- |
-| **Claude Code** | Anthropic 官方终端编程智能体，业界事实标准 | [anthropics/claude-code](https://github.com/anthropics/claude-code) |
+| **OpenDesk CLI** | opendesk终端编程智能体 |https://opendesk.matrix.openharmony.cn/docs/quickstart/cli/ |
+| **Claude Code** | Anthropic 官方终端编程智能体 | [anthropics/claude-code](https://github.com/anthropics/claude-code) |
 | **Codex CLI** | OpenAI 开源（Rust）轻量编码智能体 | [openai/codex](https://github.com/openai/codex) |
 | **Gemini CLI** | Google 开源终端 AI 助手，免费额度慷慨 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) |
 | **Copilot CLI** | GitHub 官方 Agent 命令行，issue → PR 全流程 | [github/copilot-cli](https://github.com/github/copilot-cli) |
