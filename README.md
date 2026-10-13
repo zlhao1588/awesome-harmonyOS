@@ -100,16 +100,6 @@
 | **Qoder CLI** | 阿里 Qoder 配套 CLI | [Qoder 官网](https://qoder.cn) |
 | **Trae Agent** | 字节跳动开源研究型软件工程 Agent | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) |
 
-#### 本地模型与效率工具
-
-| 工具 | 简介 | 仓库 |
-| --- | --- | --- |
-| **Ollama** | 本地大模型一键运行与管理 | [ollama/ollama](https://github.com/ollama/ollama) |
-| **llama.cpp** | 纯 C/C++ 本地推理引擎，CPU 可跑 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) |
-| **Open Interpreter** | 终端里用自然语言执行代码 | [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) |
-| **OpenHands** | 原 OpenDevin，全流程自主开发 Agent | [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) |
-| **SWE-agent** | 普林斯顿大学软件工程 Agent | [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) |
-
 ## 四、版本控制与代码托管
 
 | 工具 | 简介 | 下载链接 |
