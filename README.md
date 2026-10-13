@@ -48,7 +48,6 @@
 | 工具 | 简介 | 获取方式 / 下载链接 |
 | --- | --- | --- |
 | **DevEco Studio（鸿蒙电脑版）** | 首个原生运行在鸿蒙电脑上的 HarmonyOS 应用 IDE，基于毕方（BitFun）平台构建：代码编辑、编译构建、调试、性能调优、多设备预览一体化。2026-10-08 起开放公测（26.0.0.201 Beta1） | 应用市场 > 我的 > 应用尝鲜；[官方安装指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hmos-software-install) |
-| **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
 | **DevEco Code（鸿蒙 PC 版）** | 一站式鸿蒙应用 AI Agent 开发工具，内置 GLM5.3 / GLM5.1 等大模型，支持 Plan / Build / Goal 多种开发模式，集成鸿蒙知识库、Skills 与 MCP | 应用市场搜索“DevEco Code” |
 | **DevEco CLI（鸿蒙 PC 版）** | 命令行 AI 开发套件，一条 init 命令即可把鸿蒙开发 Skill 部署到本机各类 Agent 工具，打通终端开发流 | 随 DevEco Studio 公测发布；见官方文档 |
 | **CodeArt IDE** | 华为云轻量级代码编辑器，支持多语言开发，界面简洁 | 应用市场 > 我的 > 应用尝鲜 |
@@ -59,17 +58,13 @@
 
 ### 3.1 AI GUI 工具（应用市场已上架）
 
-#### AI 编程平台
+#### AI GUI智能体工具
 
 | 工具 | 简介 | 获取方式 |
 | --- | --- | --- |
 | **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | [应用市场详情页](https://appgallery.huawei.com/app/C117700477) |
 | **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE），可联动 CodeArts IDE 进行远程 AI 开发 | 应用市场搜索“CodeArts Agent”；[官方安装指导](https://support.huaweicloud.com/usermanual-codeartsagent/codeartsagent_ug_0069.html) |
-
-#### AI 智能体工作台
-
-| 工具 | 简介 | 获取方式 |
-| --- | --- | --- |
+| **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
 | **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
 | **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
 
