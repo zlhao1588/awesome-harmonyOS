@@ -86,6 +86,11 @@
 | **豆包** | 字节跳动AI型工作助手 | 应用市场搜索“豆包” |
 | **千问** | 阿里大模型官方助手 | 应用市场搜索“千问” |
 | **千问办公** | 阿里大模型官方助手 | 应用市场搜索“千问办公” |
+| **Chatbox** | AI客户端应用和智能助手 | 应用市场搜索“Chatbox” |
+| **讯飞星火** | 高效解决工作、学习、生活场景问题的AI助手 | 应用市场搜索“讯飞星火” |
+| **Cherry Studio** | 一款支持多个大语言模型的桌面客户端 | 应用市场搜索“Cherry Studio” |
+| **WorkSwarm** | 一款原生智能体对话应用 | 应用市场搜索“WorkSwarm” |
+| **ArkPilot** | 一款AI Agent工作台应用 | 应用市场搜索“ArkPilot” |
 
 
 
@@ -135,6 +140,7 @@
 | **AirFTP** | 轻量、高效的FTP/FTPS/SFTP文件传输客户端 |应用市场搜索“AirFTP”|
 | **优速FTP** | FTP文件传输客户端 |应用市场搜索“优速FTP”|
 | **TermNext** | 一款专业SSH客户端 |应用市场搜索“TermNext”|
+| **CodeDock** | 一款面向开发者的远程代码编辑工具 |应用市场搜索“CodeDock”|
 
 ## 七、辅助与效率工具
 
@@ -154,6 +160,7 @@
 | **Queryon for SQLite** | 鸿蒙上一款轻量级数据库管理工具 | 应用市场搜索“Queryon for SQLite” |
 | **数据库管理工具** | 鸿蒙上一款轻量级数据库管理工具 | 应用市场搜索“数据库管理工具” |
 | **SQLNexus** | 鸿蒙上一款专业数据库管理工具 | 应用市场搜索“SQLNexus” |
+| **Redis** | 数据库、缓存以及消息中间件工具 | 应用市场搜索“Redis” |
 
 
 ### 7.3 抓包工具
@@ -162,7 +169,7 @@
 | --- | --- | --- |
 | **Wireshark**（AirShark） | 网络协议分析工具，抓包深度解析数据包，用于网络调试与排障 | 应用市场搜索“AirShark”；[开源地址](https://gitcode.com/Andy88/Harmony-Wireshark) |
 
-### 7.4 辅助与效率工具
+### 7.4 科学计算与辅助效率工具
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
@@ -170,6 +177,7 @@
 | **MWorks.Syslab** | 同元软控科学计算与系统仿真环境（Julia 内核），数据分析与算法验证 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.tongyuan.mworks.syslab.pc) |
 | **鸿蒙JSON转对象工具** | JSON 快速转鸿蒙数据类（ArkTS），省去手写样板代码 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=top.sevenfire.ccjsonzs) |
 | **HMOS代码工坊** | 华为官方示例代码库，分类浏览可直接运行的应用案例 | 应用市场搜索“HMOS代码工坊” |
+| **MKLab** | 一款适合学习、科研、工程计算及日常数据处理的应用 | 应用市场搜索“MKLab” |
 
 ## 八、说明与建议
 
