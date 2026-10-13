@@ -83,6 +83,8 @@
 | **Qoder CN** | 阿里推出的编程智能体，鸿蒙电脑版已上架 | 应用市场搜索“Qorder CN” |
 | **kimi** | 月之暗面鸿蒙电脑版办公助手 | 应用市场搜索“Kimi” |
 | **Cube Agent** | 面向鸿蒙电脑的一台原生AI工作台 | 应用市场搜索“Cube Agent” |
+| **豆包** | 字节跳动AI型工作助手 | 应用市场搜索“豆包” |
+
 
 
 
@@ -118,7 +120,7 @@
 | **HmCodeHub** | 鸿蒙电脑上的 GitHub 客户端，浏览仓库、Issue 等更顺手 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=xyz.zhousg.harmony_github) |
 | **kgit** | 鸿蒙电脑上的 git工具 | 应用市场搜索“kgit”|
 | **GitCoder** | 鸿蒙上面向开发者的一款多平台Git客户端，支持Gitcode、GitHub、Gitee三大代码托管平台 | 应用市场搜索“GitCoder”|
-
+| **脉git** | 鸿蒙上一款git图形客户端 | 应用市场搜索“脉git”|
 
 
 ## 六、终端与远程开发
@@ -136,7 +138,8 @@
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
-| **QEMU**（轻虚拟机） | 通用开源虚拟机与模拟器，可跨架构运行多种完整操作系统 | 应用市场搜索“轻虚拟机”；[开源地址](https://gitcode.com/Andy88/Harmony-QEMU) |
+| **融合开发引擎** | 华为官方发布，运行在harmonyOS上的一个Linux虚拟机 | 应用市场搜索“融合开发引擎”|
+| **HISH** | 运行在harmonyOS上的一个Linux虚拟机 | 应用市场搜索“HISH”|
 
 ### 7.2 数据库工具
 
@@ -144,6 +147,10 @@
 | --- | --- | --- |
 | **Navicat Premium Lite** | 免费数据库统一管理（MySQL / PostgreSQL 等） | 应用市场搜索“Navicat” |
 | **DB Browser for SQLite**（AirBase） | SQLite 数据库可视化管理，支持建库、编辑数据与执行 SQL 查询 | 应用市场搜索“AirBase”；[开源地址](https://gitcode.com/Andy88/Harmony-SQLiteBrowser) |
+| **Queryon for SQLite** | 鸿蒙上一款轻量级数据库管理工具 | 应用市场搜索“Queryon for SQLite” |
+| **数据库管理工具** | 鸿蒙上一款轻量级数据库管理工具 | 应用市场搜索“数据库管理工具” |
+| **SQLNexus** | 鸿蒙上一款专业数据库管理工具 | 应用市场搜索“SQLNexus” |
+
 
 ### 7.3 抓包工具
 
