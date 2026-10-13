@@ -102,6 +102,10 @@
 | --- | --- | --- |
 | **GitNext** | 鸿蒙原生 Git 客户端，随时查看与管理代码仓库 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.gitnext) |
 | **HmCodeHub** | 鸿蒙电脑上的 GitHub 客户端，浏览仓库、Issue 等更顺手 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=xyz.zhousg.harmony_github) |
+| **kgit** | 鸿蒙电脑上的 git工具 | 应用市场搜索“kgit”|
+| **GitCoder** | 鸿蒙上面向开发者的一款多平台Git客户端，支持Gitcode、GitHub、Gitee三大代码托管平台 | 应用市场搜索“GitCoder”|
+
+
 
 ## 五、终端与远程开发
 
