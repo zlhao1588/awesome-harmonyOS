@@ -67,8 +67,8 @@
 | **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
 | **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
 | **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
-| **Qoder CN** | 鸿蒙电脑版AI智能体编程与办公助手 | 应用市场搜索“Qorder CN” |
-| **kimi** | 鸿蒙电脑版办公助手 | 应用市场搜索“Kimi” |
+| **Qoder CN** | 阿里推出的编程智能体，鸿蒙电脑版已上架 | 应用市场搜索“Qorder CN” |
+| **kimi** | 月之暗面鸿蒙电脑版办公助手 | 应用市场搜索“Kimi” |
 
 ### 3.2 AI CLI 工具（终端里的编程智能体）
 
