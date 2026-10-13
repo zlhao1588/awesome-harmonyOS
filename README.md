@@ -7,7 +7,7 @@
 
 - [一、新手开发实践指南](#一新手开发实践指南)
 - [二、官方 IDE 与 AI 开发套件](#二官方-ide-与-ai-开发套件)
-- [三、AI 工具版图（AI GUI × AI CLI）](#三ai-工具版图ai-gui--ai-cli)
+- [三、AI 工具版图（AI GUI & AI CLI）](#三ai-工具版图ai-gui--ai-cli)
 - [四、版本控制与代码托管](#四版本控制与代码托管)
 - [五、终端与远程开发](#五终端与远程开发)
 - [六、辅助与效率工具](#六辅助与效率工具)
@@ -48,9 +48,10 @@
 | 工具 | 简介 | 获取方式 / 下载链接 |
 | --- | --- | --- |
 | **DevEco Studio（鸿蒙电脑版）** | 首个原生运行在鸿蒙电脑上的 HarmonyOS 应用 IDE，基于毕方（BitFun）平台构建：代码编辑、编译构建、调试、性能调优、多设备预览一体化。2026-10-08 起开放公测（26.0.0.201 Beta1） | 应用市场 > 我的 > 应用尝鲜；[官方安装指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hmos-software-install) |
-| **DevEco Code（鸿蒙 PC 版）** | 一站式鸿蒙应用 AI Agent 开发工具，内置 GLM5.3 / GLM5.1 等大模型，支持 Plan / Build / Goal 多种开发模式，集成鸿蒙知识库、Skills 与 MCP | 应用市场搜索“DevEco Code” |
-| **DevEco CLI（鸿蒙 PC 版）** | 命令行 AI 开发套件，一条 init 命令即可把鸿蒙开发 Skill 部署到本机各类 Agent 工具，打通终端开发流 | 随 DevEco Studio 公测发布；见官方文档 |
+| **DevEco Code（鸿蒙电脑版）** | 一站式鸿蒙应用 AI Agent 开发工具，内置 GLM5.3 / GLM5.1 等大模型，支持 Plan / Build / Goal 多种开发模式，集成鸿蒙知识库、Skills 与 MCP | 应用市场搜索“DevEco Code” |
+| **DevEco CLI（鸿蒙电脑版）** | 命令行 AI 开发套件，一条 init 命令即可把鸿蒙开发 Skill 部署到本机各类 Agent 工具，打通终端开发流 | 随 DevEco Studio 公测发布；见官方文档 |
 | **CodeArt IDE** | 华为云轻量级代码编辑器，支持多语言开发，界面简洁 | 应用市场 > 我的 > 应用尝鲜 |
+| **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE） | 应用市场搜索“CodeArts Agent”；[官方安装指导](https://support.huaweicloud.com/usermanual-codeartsagent/codeartsagent_ug_0069.html) |
 
 ## 三、AI 工具版图（AI GUI & AI CLI）
 
@@ -63,16 +64,17 @@
 | 工具 | 简介 | 获取方式 |
 | --- | --- | --- |
 | **WorkBuddy** | 腾讯 CodeBuddy 桌面版：AI IDE + 内置 codebuddy CLI，自带 Node / Python / Git 运行时，开箱即写代码 | [应用市场详情页](https://appgallery.huawei.com/app/C117700477) |
-| **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE），可联动 CodeArts IDE 进行远程 AI 开发 | 应用市场搜索“CodeArts Agent”；[官方安装指导](https://support.huaweicloud.com/usermanual-codeartsagent/codeartsagent_ug_0069.html) |
 | **BitFun（毕方）** | 华为自研技术平台底座，鸿蒙电脑版 DevEco Studio 基于其构建 | 应用市场搜索“BitFun” |
 | **OpenDesk** | OpenHarmony 社区智能体桌面：ACP 协议宿主调度外部智能体，内置浏览器与插件系统 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ohpcd.opendesk) |
 | **OpenClaw 助手** | 开源 AI Agent 一键部署向导，依托融合开发引擎的 openEuler 终端运行 | 应用市场搜索“OpenClaw” |
+| **Qoder CN** | 鸿蒙电脑版AI智能体编程与办公助手 | 应用市场搜索“Qorder CN” |
+| **kimi** | 鸿蒙电脑版办公助手 | 应用市场搜索“Kimi” |
 
 ### 3.2 AI CLI 工具（终端里的编程智能体）
 
-> 多数为 npm/pip 一条命令安装（或 Go/Rust 单二进制），在鸿蒙电脑自带终端或融合开发引擎 openEuler 终端运行，配置 API Key 即用。
+> 多数为 npm/pip 一条命令安装，在鸿蒙电脑自带终端运行，配置 API Key 即用。
 
-#### 海外开源 Agent CLI
+#### 开源 Agent CLI
 
 | 工具 | 简介 | 仓库 |
 | --- | --- | --- |
@@ -83,11 +85,6 @@
 | **Aider** | 经典 AI 结对编程 CLI，与 Git 深度结合 | [Aider-AI/aider](https://github.com/Aider-AI/aider) |
 | **OpenCode / Crush** | 社区热门开源终端 Agent（双发行版） | [sst/opencode](https://github.com/sst/opencode) · [charmbracelet/crush](https://github.com/charmbracelet/crush) |
 | **Goose** | Block 开源可扩展 AI Agent | [block/goose](https://github.com/block/goose) |
-
-#### 国内开源 / 免费 CLI
-
-| 工具 | 简介 | 仓库 |
-| --- | --- | --- |
 | **Qwen Code** | 阿里通义千问开源 CLI（Gemini CLI 分支） | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) |
 | **iFlow CLI** | 阿里心流免费终端智能体，免费用 Qwen3-Coder / Kimi K2 / GLM 等模型 | [iflow-ai/iflow-cli](https://gitee.com/iflow-ai/iflow-cli)（官网 [cli.iflow.cn](https://cli.iflow.cn/)） |
 | **Kimi CLI** | 月之暗面开源 CLI | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) |
