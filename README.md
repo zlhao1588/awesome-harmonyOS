@@ -84,6 +84,8 @@
 | **kimi** | 月之暗面鸿蒙电脑版办公助手 | 应用市场搜索“Kimi” |
 | **Cube Agent** | 面向鸿蒙电脑的一台原生AI工作台 | 应用市场搜索“Cube Agent” |
 | **豆包** | 字节跳动AI型工作助手 | 应用市场搜索“豆包” |
+| **千问** | 阿里大模型官方助手 | 应用市场搜索“千问” |
+| **千问办公** | 阿里大模型官方助手 | 应用市场搜索“千问办公” |
 
 
 
@@ -127,10 +129,12 @@
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
-| **融合开发引擎** | openEuler Linux 子系统（虚拟机 + 容器）：一键启动、共享文件夹、快照备份，为 AI CLI 与开源软件提供 Linux 运行环境 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.huawei.developer.rgm.images_openeuler22.03) |
 | **CrossShellNext** | SSH 终端工具，支持多会话管理与密钥登录，远程开发必备 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.CrossShellNext) |
 | **FtpNextClient** | 免费 FTP / SFTP / Telnet 客户端，本地与远程文件互传 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_client) |
 | **FtpNextServer** | 免费 FTP / SSH / Telnet 服务器端，把鸿蒙电脑变成远程主机 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_server) |
+| **AirFTP** | 轻量、高效的FTP/FTPS/SFTP文件传输客户端 |应用市场搜索“AirFTP”|
+| **优速FTP** | FTP文件传输客户端 |应用市场搜索“优速FTP”|
+| **TermNext** | 一款专业SSH客户端 |应用市场搜索“TermNext”|
 
 ## 七、辅助与效率工具
 
