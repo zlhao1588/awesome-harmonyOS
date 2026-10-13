@@ -96,16 +96,18 @@
 | --- | --- | --- |
 | **OpenDesk CLI** | opendesk终端编程智能体 |https://opendesk.matrix.openharmony.cn/docs/quickstart/cli/ |
 | **Qwen Code** | 阿里通义千问开源 CLI |通过harmonybrew直接安装 |
-| **OpenCode** | 社区热门开源终端 Agent |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
+| **OpenCode** | 社区热门开源终端 Agent |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew，安装命令：brew install opencode|
 | **Openclaw** | 社区热门开源终端 Agent |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
 | **Gemini CLI** | Google 开源终端 AI 助手，免费额度慷慨 |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
 | **cline** | AI 编码代理 |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
-| **harness agent** | AI 编码智能体 |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
+| **harness agent** | AI 编码智能体 |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew，安装命令：brew install hermes-agent|
 | **kimi code CLI** | 月之暗面开源 CLI |通过npm安装，https://www.kimi.com/code/docs/kimi-code-cli/guides/getting-started.html|
-| **Codex CLI** | OpenAI 开源（Rust）轻量编码智能体 |通过harmonybrew安装，https://atomgit.com/Harmonybrew/homebrew-core|
+| **Codex CLI** | OpenAI 开源（Rust）轻量编码智能体 |通过harmonybrew安装，https://atomgit.com/Harmonybrew/homebrew-core，安装命令：brew install codex|
 | **Claude Code** | Anthropic 官方终端编程智能体 |通过harmonybrew直接安装,https://atomgit.com/social4hyq/homebrew-core |
 | **hermes** | Hermes 是一个由美国 Nous Research推出的 可长期运行、能自主执行任务并持续学习的 AI Agent |通过harmonybrew直接安装|
 | **codebuddy CLI** | 腾讯云推出的AI命令行编程工具 |通过harmonybrew直接安装|
+| **CodeWhale** | 终端编程智能体 |通过harmonybrew直接安装，安装命令：brew install codewhale|
+| **AtomCode** | 一款运行在终端的开源 AI 编码智能体 |可通过 Harmonybrew 获取。安装命令：brew install atomcode|
 
 
 ## 五、版本控制与代码托管
