@@ -19,6 +19,8 @@
 
 > 按“你想学什么”找入口：以下链接均为华为官方文档或社区实践验证的教程资源，覆盖各开发场景的入门路径。
 
+- [HarmonyBrew](https://atomgit.com/Harmonybrew) - 鸿蒙电脑上的 Homebrew 移植版命令行包管理器，支持鸿蒙 PC / 开发板 / 容器，一条命令装齐 curl、make、zsh 等常用开发工具（[官方文档](https://harmonybrew.atomgit.com/)）。
+
 ### 鸿蒙应用开发（ArkTS / ArkUI）
 
 - [HarmonyOS 第一课](https://developer.huawei.com/consumer/cn/training/study-path/101667550095504391) - 官方系统化学习路径，从零基础到进阶的课程体系。
