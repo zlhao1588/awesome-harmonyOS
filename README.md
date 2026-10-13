@@ -19,7 +19,7 @@
 
 > 按“你想学什么”找入口：以下链接均为华为官方文档或社区实践验证的教程资源，覆盖各开发场景的入门路径。
 
-- [HarmonyBrew](https://atomgit.com/Harmonybrew) - 鸿蒙电脑上的 Homebrew 移植版命令行包管理器，支持鸿蒙 PC / 开发板 / 容器，一条命令装齐 curl、make、zsh 等常用开发工具（[官方文档](https://harmonybrew.atomgit.com/)）。
+- [HarmonyBrew](https://atomgit.com/Harmonybrew) - 鸿蒙电脑上的命令行包管理器，支持在鸿蒙 PC / 开发板 / 容器中使用，一条命令装齐 curl、make、zsh 等常用开发工具（[官方文档](https://harmonybrew.atomgit.com/)）。
 
 ### 鸿蒙应用开发（ArkTS / ArkUI）
 
@@ -95,19 +95,18 @@
 | 工具 | 简介 | 仓库 |
 | --- | --- | --- |
 | **OpenDesk CLI** | opendesk终端编程智能体 |https://opendesk.matrix.openharmony.cn/docs/quickstart/cli/ |
-| **Claude Code** | Anthropic 官方终端编程智能体 | [anthropics/claude-code](https://github.com/anthropics/claude-code) |
-| **Codex CLI** | OpenAI 开源（Rust）轻量编码智能体 | [openai/codex](https://github.com/openai/codex) |
-| **Gemini CLI** | Google 开源终端 AI 助手，免费额度慷慨 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) |
-| **Copilot CLI** | GitHub 官方 Agent 命令行，issue → PR 全流程 | [github/copilot-cli](https://github.com/github/copilot-cli) |
-| **Aider** | 经典 AI 结对编程 CLI，与 Git 深度结合 | [Aider-AI/aider](https://github.com/Aider-AI/aider) |
-| **OpenCode / Crush** | 社区热门开源终端 Agent（双发行版） | [sst/opencode](https://github.com/sst/opencode) · [charmbracelet/crush](https://github.com/charmbracelet/crush) |
-| **Goose** | Block 开源可扩展 AI Agent | [block/goose](https://github.com/block/goose) |
-| **Qwen Code** | 阿里通义千问开源 CLI（Gemini CLI 分支） | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) |
-| **iFlow CLI** | 阿里心流免费终端智能体，免费用 Qwen3-Coder / Kimi K2 / GLM 等模型 | [iflow-ai/iflow-cli](https://gitee.com/iflow-ai/iflow-cli)（官网 [cli.iflow.cn](https://cli.iflow.cn/)） |
-| **Kimi CLI** | 月之暗面开源 CLI | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) |
-| **CodeBuddy Code** | 腾讯 CodeBuddy 配套 CLI，WorkBuddy 内置同款 | 随 WorkBuddy / CodeBuddy 安装 |
-| **Qoder CLI** | 阿里 Qoder 配套 CLI | [Qoder 官网](https://qoder.cn) |
-| **Trae Agent** | 字节跳动开源研究型软件工程 Agent | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) |
+| **Qwen Code** | 阿里通义千问开源 CLI |通过harmonybrew直接安装 |
+| **OpenCode** | 社区热门开源终端 Agent |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
+| **Openclaw** | 社区热门开源终端 Agent |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
+| **Gemini CLI** | Google 开源终端 AI 助手，免费额度慷慨 |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
+| **cline** | AI 编码代理 |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
+| **harness agent** | AI 编码智能体 |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
+| **kimi code CLI** | 月之暗面开源 CLI |通过npm安装，https://www.kimi.com/code/docs/kimi-code-cli/guides/getting-started.html|
+| **Codex CLI** | OpenAI 开源（Rust）轻量编码智能体 |通过harmonybrew安装，https://atomgit.com/Harmonybrew/homebrew-core|
+| **Claude Code** | Anthropic 官方终端编程智能体 |通过harmonybrew直接安装,https://atomgit.com/social4hyq/homebrew-core |
+| **hermes** | Hermes 是一个由美国 Nous Research推出的 可长期运行、能自主执行任务并持续学习的 AI Agent |通过harmonybrew直接安装|
+| **codebuddy CLI** | 腾讯云推出的AI命令行编程工具 |通过harmonybrew直接安装|
+
 
 ## 五、版本控制与代码托管
 
