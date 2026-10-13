@@ -7,11 +7,12 @@
 
 - [一、新手开发实践指南](#一新手开发实践指南)
 - [二、官方 IDE 与 AI 开发套件](#二官方-ide-与-ai-开发套件)
-- [三、AI 工具版图（AI GUI & AI CLI）](#三ai-工具版图ai-gui--ai-cli)
-- [四、版本控制与代码托管](#四版本控制与代码托管)
-- [五、终端与远程开发](#五终端与远程开发)
-- [六、辅助与效率工具](#六辅助与效率工具)
-- [七、说明与建议](#七说明与建议)
+- [三、三方IDE工具](#三三方ide工具)
+- [四、AI 工具版图（AI GUI & AI CLI）](#四ai-工具版图ai-gui--ai-cli)
+- [五、版本控制与代码托管](#五版本控制与代码托管)
+- [六、终端与远程开发](#六终端与远程开发)
+- [七、辅助与效率工具](#七辅助与效率工具)
+- [八、说明与建议](#八说明与建议)
 - [相关资源](#相关资源)
 
 ## 一、新手开发实践指南
@@ -53,11 +54,21 @@
 | **CodeArt IDE** | 华为云轻量级代码编辑器，支持多语言开发，界面简洁 | 应用市场 > 我的 > 应用尝鲜 |
 | **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE） | 应用市场搜索“CodeArts Agent”；[官方安装指导](https://support.huaweicloud.com/usermanual-codeartsagent/codeartsagent_ug_0069.html) |
 
-## 三、AI 工具版图（AI GUI & AI CLI）
+## 三、三方IDE工具
+
+| 工具 | 简介 | 获取方式 |
+| --- | --- | --- |
+| **AirCode** | 轻量编码环境，代码以 WebAssembly 在沙箱中编译运行，适合 C++ 等语言上手练习 | 应用市场搜索“AirCode” |
+| **MKIDE** | 在鸿蒙设备上提供 IntelliJ IDEA 式的 Java 开发环境，补齐鸿蒙平板/电脑的 Java 编程生产力 | 应用市场搜索“MKIDE” |
+| **Java编译器IDE** | 集成完整 Java 编译运行环境，安装后无需其他软件即可编写、编译与运行 Java 代码 | 应用市场搜索“Java编译器IDE” |
+| **Python编译器IDE** | 集成完整 Python 编译运行环境，图形界面安装与管理三方模块（内置 pygame 等） | 应用市场搜索“Python编译器IDE” |
+| **循造IDE** | 深开鸿适配版三方 IDE，原生适配、Agent 就绪，支持 React / Vue / 静态站点开箱预览 | 应用市场搜索“循造IDE” |
+
+## 四、AI 工具版图（AI GUI & AI CLI）
 
 > 鸿蒙电脑上可运行的 AI 工具全景：带界面的一类（AI GUI）已批量上架华为应用市场，开箱即用；命令行的一类（AI CLI）多为开源编程智能体，在鸿蒙电脑自带终端中即装即用。
 
-### 3.1 AI GUI 工具（应用市场已上架）
+### 4.1 AI GUI 工具（应用市场已上架）
 
 #### AI GUI智能体工具
 
@@ -73,7 +84,7 @@
 
 
 
-### 3.2 AI CLI 工具（终端里的编程智能体）
+### 4.2 AI CLI 工具（终端里的编程智能体）
 
 > 多数为 npm/pip 一条命令安装，在鸿蒙电脑自带终端运行，配置 API Key 即用。
 
@@ -96,7 +107,7 @@
 | **Qoder CLI** | 阿里 Qoder 配套 CLI | [Qoder 官网](https://qoder.cn) |
 | **Trae Agent** | 字节跳动开源研究型软件工程 Agent | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) |
 
-## 四、版本控制与代码托管
+## 五、版本控制与代码托管
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
@@ -107,7 +118,7 @@
 
 
 
-## 五、终端与远程开发
+## 六、终端与远程开发
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
@@ -116,28 +127,28 @@
 | **FtpNextClient** | 免费 FTP / SFTP / Telnet 客户端，本地与远程文件互传 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_client) |
 | **FtpNextServer** | 免费 FTP / SSH / Telnet 服务器端，把鸿蒙电脑变成远程主机 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_server) |
 
-## 六、辅助与效率工具
+## 七、辅助与效率工具
 
-### 6.1 Linux 虚拟机
+### 7.1 Linux 虚拟机
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
 | **QEMU**（轻虚拟机） | 通用开源虚拟机与模拟器，可跨架构运行多种完整操作系统 | 应用市场搜索“轻虚拟机”；[开源地址](https://gitcode.com/Andy88/Harmony-QEMU) |
 
-### 6.2 数据库工具
+### 7.2 数据库工具
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
 | **Navicat Premium Lite** | 免费数据库统一管理（MySQL / PostgreSQL 等） | 应用市场搜索“Navicat” |
 | **DB Browser for SQLite**（AirBase） | SQLite 数据库可视化管理，支持建库、编辑数据与执行 SQL 查询 | 应用市场搜索“AirBase”；[开源地址](https://gitcode.com/Andy88/Harmony-SQLiteBrowser) |
 
-### 6.3 抓包工具
+### 7.3 抓包工具
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
 | **Wireshark**（AirShark） | 网络协议分析工具，抓包深度解析数据包，用于网络调试与排障 | 应用市场搜索“AirShark”；[开源地址](https://gitcode.com/Andy88/Harmony-Wireshark) |
 
-### 6.4 辅助与效率工具
+### 7.4 辅助与效率工具
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
@@ -146,7 +157,7 @@
 | **鸿蒙JSON转对象工具** | JSON 快速转鸿蒙数据类（ArkTS），省去手写样板代码 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=top.sevenfire.ccjsonzs) |
 | **HMOS代码工坊** | 华为官方示例代码库，分类浏览可直接运行的应用案例 | 应用市场搜索“HMOS代码工坊” |
 
-## 七、说明与建议
+## 八、说明与建议
 
 1. **应用尝鲜通道**：DevEco Studio 等官方工具目前通过“华为应用市场 > 我的 > 应用尝鲜”分发，普通搜索可能搜不到。
 2. **运行环境**：DevEco Studio 鸿蒙电脑版要求 HarmonyOS 7.0 及以上，支持 MateBook Pro / MateBook Fold 非凡大师等机型。
