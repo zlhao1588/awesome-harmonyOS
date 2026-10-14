@@ -106,7 +106,7 @@
 
 | 工具 | 简介 | 仓库 |
 | --- | --- | --- |
-| **OpenDesk CLI** | opendesk终端编程智能体 |https://opendesk.matrix.openharmony.cn/docs/quickstart/cli/ |
+| **OpenDesk CLI** | opendesk终端编程智能体 |https://opendesk.matrix.openharmony.cn/docs/quickstart/cli/ https://www.bilibili.com/video/BV1PEWw6GEWw/?spm_id_from=333.337.search-card.all.click&vd_source=caec68426b7a936ef3e9b97d6de1317d |
 | **Qwen Code** | 阿里通义千问开源 CLI |通过harmonybrew直接安装 |
 | **OpenCode** | 社区热门开源终端 Agent |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew，安装命令：brew install opencode|
 | **Openclaw** | 社区热门开源终端 Agent |通过harmonybrew直接安装,https://gitcode.com/OpenHarmonyPCDeveloper/ohpcd-brew|
