@@ -44,6 +44,7 @@
 ### 社区与生态
 
 - [GitCode OpenHarmonyPCDeveloper 组织](https://gitcode.com/OpenHarmonyPCDeveloper) - 鸿蒙 PC 开发者开源组织，PC 应用移植与共建。
+- https://ohpcd.atomgit.com/docs -开发者开源组织，PC三方库、PC开源应用移植共建。
 
 ## 二、官方 IDE 与 AI 开发套件
 
