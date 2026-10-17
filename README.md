@@ -137,6 +137,7 @@
 
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
+| **Xshell** | SSH终端，支持SFTP、RDP等 |应用市场搜索“Xshell”|
 | **CrossShellNext** | SSH 终端工具，支持多会话管理与密钥登录，远程开发必备 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.CrossShellNext) |
 | **FtpNextClient** | 免费 FTP / SFTP / Telnet 客户端，本地与远程文件互传 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_client) |
 | **FtpNextServer** | 免费 FTP / SSH / Telnet 服务器端，把鸿蒙电脑变成远程主机 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_server) |
@@ -153,6 +154,7 @@
 | --- | --- | --- |
 | **融合开发引擎** | 华为官方发布，运行在harmonyOS上的一个Linux虚拟机 | 应用市场搜索“融合开发引擎”|
 | **HISH** | 运行在harmonyOS上的一个Linux虚拟机 | 应用市场搜索“HISH”|
+| **融合开发图像引擎** | 基于融合开发引擎做的Linux GUI程序，支持运行VScode、CLion、Google Chrome、QT Creator、ZCode、Intellij IDEA等Linux版本应用 | 应用市场搜索“融合开发图像引擎”|
 
 ### 7.2 数据库工具
 
