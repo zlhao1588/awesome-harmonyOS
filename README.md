@@ -67,6 +67,7 @@
 | **循造IDE** | 深开鸿适配版三方 IDE，原生适配、Agent 就绪，支持 React / Vue / 静态站点开箱预览 | 应用市场搜索”循造IDE” |
 | **LiteIDE** | Go 语言的轻量级开源集成开发环境 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_LiteIDE) |
 | **JupyterLab** | Jupyter 项目的新一代交互式计算环境，支持数据分析与科学计算 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_JupyterLab) |
+| **RedPandaCPP** | 面向编程入门和初级用户的C/C++集成开发环境， Dev C++鸿蒙化改名为RedPandaCPP | 应用市场搜索“RedPandaCPP” |
 
 ## 四、AI 工具版图（AI GUI & AI CLI）
 
@@ -138,6 +139,7 @@
 | 工具 | 简介 | 下载链接 |
 | --- | --- | --- |
 | **Xshell** | SSH终端，支持SFTP、RDP等 |应用市场搜索“Xshell”|
+| **QuickVNC (based on TigerVNC)** | 基于TigerVNC基础上修改和扩展的VNC客户端 |应用市场搜索“QuickVNC (based on TigerVNC)”|
 | **CrossShellNext** | SSH 终端工具，支持多会话管理与密钥登录，远程开发必备 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.CrossShellNext) |
 | **FtpNextClient** | 免费 FTP / SFTP / Telnet 客户端，本地与远程文件互传 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_client) |
 | **FtpNextServer** | 免费 FTP / SSH / Telnet 服务器端，把鸿蒙电脑变成远程主机 | [应用市场详情页](https://appgallery.huawei.com/app/detail?id=com.develop.opensource.ftpnext_server) |
@@ -201,6 +203,7 @@
 | **Notepad--** | Notepad++ 的开源替代品 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/notepad--_ohos) |
 | **MarkText** | 开源的 Markdown 编辑器 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_marktext) |
 | **electron-markdownify** | 基于 Electron 的轻量开源 Markdown 桌面编辑器 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_markdownify) |
+| **TeX IDE (based on TeXstudio)** | TexStudio的替代品，基于TexStudio改编和移植 | 应用市场搜索“TeX IDE (based on TeXstudio)” |
 
 ### 8.2 编程辅助工具
 
@@ -218,6 +221,7 @@
 
 | 工具 | 简介 | 开源地址 |
 | --- | --- | --- |
+| **Doxywizard** | 基于doxygen源码移植，doxygen的原生替代 | 应用市场搜索“Doxywizard” |
 | **Logseq** | 开源的隐私至上的知识管理和协作平台 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_logseq) |
 | **Trilium Notes** | 开源的层级笔记应用 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_Trilium) |
 | **Nixnote** | Evernote 的开源客户端（NixNote 2） | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_nixnote2_electron) |
@@ -231,6 +235,7 @@
 
 | 工具 | 简介 | 开源地址 |
 | --- | --- | --- |
+| **MeldNext (based on Meld)** | 可视化diff工具，比较、合并文件、目录等 | 应用市场搜索“MeldNext (based on Meld)”|
 | **Kdiff3** | 开源的差异比较和合并工具 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_KDiff3) |
 | **Meldmerge** | 同 Meld 比较工具 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_meldmerge_electron) |
 | **DiffPDF** | 用于比较两个 PDF 文件差异的开源工具 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_DiffPDF) |
@@ -317,6 +322,9 @@
 | **Pencil** | 开源的 GUI 原型设计工具 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_pencil) |
 | **TuxPaint** | 面向儿童的开源绘画软件 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_tuxpaint) |
 | **KTouch** | KDE 下的开源打字辅导软件 | [开源地址](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_KTouch) |
+| **HexEdit** | 十六进制编辑器 | 应用市场搜索“HexEdit”|
+| **NeViz (based on Netron）** | 基于Netron源码移植，Netron的替代品 | 应用市场搜索“NeViz (based on Netron）”|
+
 
 
 
