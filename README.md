@@ -53,8 +53,8 @@
 | **DevEco Studio（鸿蒙电脑版）** | 首个原生运行在鸿蒙电脑上的 HarmonyOS 应用 IDE，基于毕方（BitFun）平台构建：代码编辑、编译构建、调试、性能调优、多设备预览一体化。2026-10-08 起开放公测（26.0.0.201 Beta1） | 应用市场 > 我的 > 应用尝鲜；[官方安装指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-hmos-software-install) |
 | **DevEco Code（鸿蒙电脑版）** | 一站式鸿蒙应用 AI Agent 开发工具，内置 GLM5.3 / GLM5.1 等大模型，支持 Plan / Build / Goal 多种开发模式，集成鸿蒙知识库、Skills 与 MCP | 应用市场搜索“DevEco Code” |
 | **DevEco CLI（鸿蒙电脑版）** | 命令行 AI 开发套件，一条 init 命令即可把鸿蒙开发 Skill 部署到本机各类 Agent 工具，打通终端开发流 | 随 DevEco Studio 公测发布；见官方文档 |
-| **CodeArt IDE** | 华为云轻量级代码编辑器，支持多语言开发，界面简洁 | 应用市场 > 我的 > 应用尝鲜 |
-| **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE） | 应用市场搜索“CodeArts Agent”；[官方安装指导](https://support.huaweicloud.com/usermanual-codeartsagent/codeartsagent_ug_0069.html) |
+| **CodeArt IDE** | 华为云轻量级代码编辑器，支持多语言开发，界面简洁 | 应用市场  |
+| **CodeArts Agent** | 华为云 AI 编程智能体（码道 IDE） | 应用市场搜索“CodeArts Agent”|
 
 ## 三、三方IDE工具
 
